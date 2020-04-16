@@ -22,10 +22,11 @@ class MyApp extends StatelessWidget {
               Text(
                 'Ronaiza Cardoso',
                 style: TextStyle(
-                    fontSize: 20,
-                    color: Colors.white,
-                    fontWeight: FontWeight.bold,
-                    fontFamily: 'Source Sans Pro'),
+                  fontSize: 20,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                  fontFamily: 'Source Sans Pro',
+                ),
               ),
               Text(
                 'SOFTWARE DEVELOPER',
