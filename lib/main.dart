@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.grey[900],
         body: SafeArea(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
                 radius: 50,
@@ -32,6 +33,51 @@ class MyApp extends StatelessWidget {
                     color: Colors.white,
                     fontSize: 20,
                     fontFamily: 'Source Sans Pro'),
+              ),
+              SizedBox(
+                height: 100,
+                width: 250,
+                child: Divider(color: Colors.grey),
+              ),
+              Card(
+                color: Colors.grey[100],
+                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
+                child: Padding(
+                  padding: EdgeInsets.all(1),
+                  child: ListTile(
+                      leading: Icon(
+                        Icons.phone,
+                        color: Colors.grey[900],
+                      ),
+                      title: Text(
+                        '+99 938 3846',
+                        style: TextStyle(
+                            color: Colors.grey[900],
+                            fontSize: 20,
+                            fontFamily: 'Source Sans Pro'),
+                      )),
+                ),
+              ),
+              Card(
+                color: Colors.grey[100],
+                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
+                child: Padding(
+                  padding: EdgeInsets.all(1),
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.email,
+                      color: Colors.grey[900],
+                    ),
+                    title: Text(
+                      'ronaiza@corp.com',
+                      style: TextStyle(
+                        color: Colors.grey[900],
+                        fontSize: 20,
+                        fontFamily: 'Source Sans Pro',
+                      ),
+                    ),
+                  ),
+                ),
               )
             ],
           ),
